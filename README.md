@@ -1,7 +1,23 @@
 # Elevation Peaks in Malaysia
 
-A few years ago, I created a simple web project using Google Map API. It is a map that shows some of the recorded elevation peaks in Malaysia. Those elevation peak data contain the peak name, GPS coordinates, elevation profile in meter and remark or short description of the peak. Currently, the data are recorded in JSON format and static. The data that I had not really much as I don't hike as much as other hikers here did. Plus, some of the data are gathered from the Internet itself.
+A few years ago I created _Elevation Peaks in Malaysia_, a map that contains a collection of elevation peak records. It was a simple web demo created using Google Map API. The elevation peak data contains the peak name, GPS coordinates, elevation profile and remark. The data is recorded in JSON format.
 
-[**View Demo**](https://codepen.io/heiswayi/full/rjJjEz) // [Read This Blog](https://heiswayi.nrird.com/elevation-peaks-in-malaysia)
+[Demo](https://codepen.io/heiswayi/full/rjJjEz)
 
-**VOLUNTARY CONTRIBUTION WANTED!** If anyone who likes to contribute to make [those data](data.json) better, the contribution is encouraged and really appreciated. Feel free to make a pull request to this repo. Thanks!
+### Data
+
+I don't hike as much as others, so I don't have much details for the local peaks that people used to go for hike. Other data are simply grabbed from the Internet and their GPS coordinates may not be so accurate. I hosted the data file (`data.json`) on [GitHub](https://github.com/heiswayi/elevation-peaks/blob/master/data.json) if you would like to see.
+
+Example data format for each peak:
+
+```json
+{
+  "lat": 5.787534,
+  "lng": 100.433707,
+  "title": "Gunung Jerai",
+  "remark": "-",
+  "elevation": 1217
+}
+```
+
+**VOLUNTARY CONTRIBUTION WANTED!** If you think this project is interesting and would like to contribute for the data or make the project better, you are encourage to contact me at _heiswayi (at) nrird (dot) com_ to discuss in details or make some PR on [GitHub](https://github.com/heiswayi/elevation-peaks). Your contribution is really really appreciated.
